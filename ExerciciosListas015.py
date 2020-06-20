@@ -38,10 +38,11 @@ for n in notas:
 
 print(f'Quantidade de valores lidos: {len(notas)}')
 print('Os valores que foram informados é:', notas)
-# Percorre toda a lista de trás para frente
+'''# Percorre toda a lista de trás para frente
 for i in reversed(notas):
     # Exibe o valor na tela um abaixo do outro
-    print(i)
+    print(i)'''
+print('Os valores na ordem inversa à que foram informados é', notas[::-1])
 print(f'A soma dos valores é: {sum(notas):.02f}')
 print(f'A média dos valores é: {media:.02f}')
 print(f'Quantidade de valores acima da média é: {acimaMedia}')
