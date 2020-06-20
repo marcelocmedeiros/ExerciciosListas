@@ -13,7 +13,7 @@ lista = list()
 lista.sort(reverse = True)
 
 # em um laço for vou digitar os 10 vetores 
-for i in range(1, 10):
+for i in range(1, 11):
     # usei a função append para add cada número a lista
     lista.append(int(input(f'Ditie o {i}° número da lista:')))
 print(lista)
