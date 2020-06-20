@@ -9,15 +9,16 @@
 
 lista1 = []
 for i in range(1, 11):
-    lista1.appendint(input(f'Digite {i}º número: '))
+    lista1.append(int(input(f'Digite {i}º número: ')))
 lista2 = []
 for i in range(1, 11):
-    lista2.appendint(input(f'Digite {i}º número: '))
+    lista2.append(int(input(f'Digite {i}º número: ')))
 lista3 = []
-# for vai percorrer as duas listas 
+# for vai percorrer as duas listas
 for i in range(0, 10):
     # vai add elementos intercalados dos dois outros vetores
     lista3.append(lista1[i])
     lista3.append(lista2[i])
-
+print(lista1)
+print(lista2)
 print(lista3)
